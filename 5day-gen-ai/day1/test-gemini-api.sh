@@ -1,6 +1,6 @@
 set -x
 
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=__APU_KDY__" \
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=__API_KEY__" \
   -H 'Content-Type: application/json' \
   -X POST \
   -d '{
